@@ -1,0 +1,36 @@
+body {
+    background-color: #001f3f;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+h1 {
+    color: #FF4136;
+    font-size: 40px;
+    -webkit-text-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-text-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    text-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.services {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+    li {
+        display: inline;
+        border-right: solid 1px white;
+        padding-right: 10px;
+        margin-left: 5px;
+        &:last-child {
+            border: 0;
+        }
+    }
+}
+
+.services, .email, .email a {
+    font-size: 20px;
+    color: #FF851B;
+}
